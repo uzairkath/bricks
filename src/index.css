@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 400;
+  src: url('./assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 500;
+  src: url('./assets/fonts/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 600;
+  src: url('./assets/fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 700;
+  src: url('./assets/fonts/Poppins/Poppins-Bold.ttf');
+}
+
+:root {
+  --primary: #FF675A;
+  --secondary: #FF895B;
+  --main: #002159;
+  --main-light: #00215922;
+  --dark: #404040;
+  --muted-main: color: rgba(0, 33, 89, 0.5);
+  --primary-gradient: linear-gradient(270deg, #FF675A 0%, #FF895B 100%);
+  --white: #ffffff;
+  --light: #ececec;
+  --nav_height: 72px;
+  --container: 2em;
+  --grey: #7A7A7A;
+  --light-grey: #D3D3D3;
+  --close-width: calc(30px + 3.2rem);
+  --close-width-sm: calc(30px + 2rem);
+
+  --open-width: 270px;
+  --border-radius: 1rem;
+  --light-transparent: rgba(63, 61, 86, 0.05);
+  --light-gradient: linear-gradient(45.16deg, #D7EDFE 11.47%, #FFFFFF 45.37%, #FFFFFF 66.25%, #FFDACB 93.55%);
+  --shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  --dark-shadow: 10px 10px 20px rgba(0, 0, 0, 0.18);
+  --even-dark-shadow: 0px 0px 20px rgba(0, 0, 0, 0.18);
+  --input-h: 41px;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+#root {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}

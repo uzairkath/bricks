@@ -1,0 +1,15 @@
+.wallet-page {
+    background: linear-gradient(45.16deg, #D7EDFE 11.47%, #FFFFFF 45.37%, #FFFFFF 66.25%, #FFDACB 93.55%);
+    padding-top: calc(var(--nav_height) + 2em);
+
+}
+
+.wallet-card-wrapper{
+    padding: 1em;
+}
+
+.wallet-card {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 1em;
+}
